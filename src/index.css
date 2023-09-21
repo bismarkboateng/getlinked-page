@@ -7,3 +7,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: #150E28;
+}
+
+.button {
+  background: linear-gradient(45deg,#FE34B9, #FF26B9, #D434FE, #903AFF);
+}
+
+.gradient {
+  background: radial-gradient(ellipse, rgba(144,58,255,1) 100%, rgba(144,58,255,1) 100%);
+  margin-left: 150px;
+  filter: blur(160px);
+  
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}

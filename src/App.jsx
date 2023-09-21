@@ -1,9 +1,12 @@
-import { Navbar} from "./components"
+import { Navbar, Line} from "./components"
 
 export default function App() {
   return (
-    <div>
-      <Navbar />
-    </div>
+    <>
+      <div className="w-9/12 mx-auto">
+        <Navbar />
+      </div>
+      <Line />
+    </>
   )
 }

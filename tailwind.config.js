@@ -9,7 +9,25 @@ module.exports = {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans'],
+        clash: ['Clash Display', 'sans'],
+        inter: ['Inter', 'sans']
+      },
+
+      keyframes: {
+        slideRight: {
+          '0%': { width: '0%' },
+          '100%': { width: '100%' },
+        }
+      },
+
+      animation: {
+        slideRight: 'slideRight 0.5s ease',
+      },
+
+    },
   },
   plugins: [],
 }
